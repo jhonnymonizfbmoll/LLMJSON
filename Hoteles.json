@@ -1,0 +1,713 @@
+[
+    {
+        "id_Hotel": 1,
+        "nombre_Hotel": "Hotel el Cairo",
+        "estrellas_Hotel": 2,
+        "mascotas": true,
+        "gimnasio": false,
+        "servicioLimpieza":true,
+        "wifi": false,
+        "piscina": true,
+        "habitaciones": [
+            {
+                "id_Habitacion": 1,
+                "numero_personas": 4,
+                "camas": "2",   
+                "television":true,  
+                "calefaccion": false,  
+                "servicioHabitaciones": true,           
+                "baños":["ducha","lavabo","baño"],
+                "minibar": false,
+                "agregadores": [
+                    {
+                        "id_agregador": 1,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 20,
+                                    "comision": 6,
+                                    "precioTotal": 26
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 15,
+                                    "precioTotal": 55
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 2,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 20,
+                                    "comision": 10,
+                                    "precioTotal": 30
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 20,
+                                    "precioTotal": 60
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 3,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 20,
+                                    "comision": 5,
+                                    "precioTotal": 25
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 10,
+                                    "precioTotal": 50
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id_Habitacion": 2,
+                "numero_personas": 2,
+                "camas": "2",   
+                "television":false,  
+                "calefaccion": false,  
+                "servicioHabitaciones": true,           
+                "baños":["ducha","lavabo"],
+                "minibar": false,
+                "agregadores": [
+                    {
+                        "id_agregador": 1,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 10,
+                                    "comision": 6,
+                                    "precioTotal": 16
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 20,
+                                    "comision": 15,
+                                    "precioTotal": 35
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 2,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 10,
+                                    "comision": 2,
+                                    "precioTotal": 12
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 20,
+                                    "comision": 5,
+                                    "precioTotal": 25
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 3,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 10,
+                                    "comision": 5,
+                                    "precioTotal": 15
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 20,
+                                    "comision": 10,
+                                    "precioTotal": 30
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id_Habitacion": 3,
+                "numero_personas": 4,
+                "camas": "3",   
+                "television":true,  
+                "calefaccion": true,  
+                "servicioHabitaciones": true,           
+                "baños":["ducha","lavabo","baño"],
+                "minibar": true,
+                "agregadores": [
+                    {
+                        "id_agregador": 1,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 10,
+                                    "precioTotal": 50
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 60,
+                                    "comision": 15,
+                                    "precioTotal": 75
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 2,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 15,
+                                    "precioTotal": 55
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 60,
+                                    "comision": 20,
+                                    "precioTotal": 80
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 3,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 5,
+                                    "precioTotal": 45
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 60,
+                                    "comision": 10,
+                                    "precioTotal": 70
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]    
+    },
+    {
+        "id_Hotel": 2,
+        "nombre_Hotel": "Hotel Palante",
+        "estrellas_Hotel":4,
+        "mascotas": true,
+        "gimnasio": true,
+        "servicioLimpieza":true,
+        "wifi": true,
+        "piscina": true,
+        "habitaciones": [
+            {
+                "id_Habitacion": 1,
+                "numero_personas": 2,
+                "camas": "1",   
+                "television":true,  
+                "calefaccion": true,  
+                "servicioHabitaciones": true,           
+                "baños":["ducha","lavabo"],
+                "minibar": false,
+                "agregadores": [
+                    {
+                        "id_agregador": 1,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 10,
+                                    "precioTotal": 50
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 60,
+                                    "comision": 15,
+                                    "precioTotal": 75
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 2,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 15,
+                                    "precioTotal": 55
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 60,
+                                    "comision": 20,
+                                    "precioTotal": 80
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 3,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 5,
+                                    "precioTotal": 45
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 60,
+                                    "comision": 10,
+                                    "precioTotal": 70
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id_Habitacion": 2,
+                "numero_personas": 4,
+                "camas": "4",   
+                "television":true,  
+                "calefaccion": true,  
+                "servicioHabitaciones": false,           
+                "baños":["ducha","lavabo","baño"],
+                "minibar": true,
+                "agregadores": [
+                    {
+                        "id_agregador": 1,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 50,
+                                    "comision": 6,
+                                    "precioTotal": 56
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 70,
+                                    "comision": 15,
+                                    "precioTotal": 85
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 2,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 50,
+                                    "comision": 2,
+                                    "precioTotal": 52
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 70,
+                                    "comision": 5,
+                                    "precioTotal": 75
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 3,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 50,
+                                    "comision": 5,
+                                    "precioTotal": 55
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 70,
+                                    "comision": 10,
+                                    "precioTotal": 80
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id_Habitacion": 3,
+                "numero_personas": 1,
+                "camas": "1",   
+                "television":true,  
+                "calefaccion": true,  
+                "servicioHabitaciones": true,           
+                "baños":["ducha","lavabo","baño"],
+                "minibar": true,
+                "agregadores": [
+                    {
+                        "id_agregador": 1,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 10,
+                                    "precioTotal": 50
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 50,
+                                    "comision": 15,
+                                    "precioTotal": 65
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 2,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 15,
+                                    "precioTotal": 55
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 50,
+                                    "comision": 20,
+                                    "precioTotal": 70
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 3,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 40,
+                                    "comision": 5,
+                                    "precioTotal": 45
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 50,
+                                    "comision": 10,
+                                    "precioTotal": 60
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]    
+    },
+    {
+        "id_Hotel": 3,
+        "nombre_Hotel": "Hotel Chusky",
+        "estrellas_Hotel": 1,
+        "mascotas": false,
+        "gimnasio": false,
+        "servicioLimpieza":false,
+        "wifi": true,
+        "piscina": false,
+        "habitaciones": [
+            {
+                "id_Habitacion": 1,
+                "numero_personas": 1,
+                "camas": "1",   
+                "television":true,  
+                "calefaccion": true,  
+                "servicioHabitaciones": false,           
+                "baños":["ducha","lavabo"],
+                "minibar": false,
+                "agregadores": [
+                    {
+                        "id_agregador": 1,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 10,
+                                    "comision": 6,
+                                    "precioTotal": 16
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 20,
+                                    "comision": 15,
+                                    "precioTotal": 35
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 2,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 10,
+                                    "comision": 10,
+                                    "precioTotal": 20
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 20,
+                                    "comision": 20,
+                                    "precioTotal": 40
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 3,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 10,
+                                    "comision": 5,
+                                    "precioTotal": 15
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 20,
+                                    "comision": 10,
+                                    "precioTotal": 30
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id_Habitacion": 2,
+                "numero_personas": 2,
+                "camas": "2",   
+                "television":false,  
+                "calefaccion": true,  
+                "servicioHabitaciones": false,           
+                "baños":["ducha","lavabo"],
+                "minibar": false,
+                "agregadores": [
+                    {
+                        "id_agregador": 1,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 15,
+                                    "comision": 6,
+                                    "precioTotal": 21
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 25,
+                                    "comision": 15,
+                                    "precioTotal": 40
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 2,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 15,
+                                    "comision": 2,
+                                    "precioTotal": 17
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 25,
+                                    "comision": 5,
+                                    "precioTotal": 30
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 3,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 15,
+                                    "comision": 5,
+                                    "precioTotal": 20
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 25,
+                                    "comision": 10,
+                                    "precioTotal": 35
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id_Habitacion": 3,
+                "numero_personas": 4,
+                "camas": "3",   
+                "television":true,  
+                "calefaccion": true,  
+                "servicioHabitaciones": true,           
+                "baños":["ducha","lavabo","baño"],
+                "minibar": true,
+                "agregadores": [
+                    {
+                        "id_agregador": 1,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 30,
+                                    "comision": 10,
+                                    "precioTotal": 40
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 45,
+                                    "comision": 15,
+                                    "precioTotal": 60
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 2,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 30,
+                                    "comision": 15,
+                                    "precioTotal": 45
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 45,
+                                    "comision": 20,
+                                    "precioTotal": 65
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "id_agregador": 3,
+                        "tarifas": [
+                            {
+                                "temporada": "baja",                               
+                                "precio": {
+                                    "precioHabitacion": 30,
+                                    "comision": 5,
+                                    "precioTotal": 35
+                                }
+                            },
+                            {
+                                "temporada": "alta",
+                                "precio": {
+                                    "precioHabitacion": 45,
+                                    "comision": 10,
+                                    "precioTotal": 55
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]    
+    }
+]
